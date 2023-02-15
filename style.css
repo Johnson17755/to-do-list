@@ -5,6 +5,17 @@ body{
     background: linear-gradient(to right, #e55d8f, #5fc3E4);
 }
 
+label{
+    display: block;
+}
+
+input{
+    width: 350px;
+    height: 20px;
+    border: none;
+    max-width: 400px;
+}
+
 .container{
     text-align: center;
     justify-content: center;
@@ -15,6 +26,11 @@ body{
     transform: translate(-50%, -50%);
     border: 1px solid white;
     padding: 30px;
-    background-color: white;
+    background-color: #fafafa;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.todos li{
+    background-color: #fff;
+    color: black;
 }
